@@ -1,0 +1,53 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="600px" height="300px" viewBox="0 0 1200 600"
+     xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <title>Example quad01 - quadratic Bézier commands in path data</title>
+  <desc>Picture showing a "Q" a "T" command,
+        along with annotations showing the control points
+        and end points</desc>
+  <rect x="1" y="1" width="1198" height="598"
+        fill="none" stroke="blue" stroke-width="1" />
+
+<!--
+  <path id="curve" d="M200,300 C400,50 400,550 600,300"
+        fill="none" stroke="red" stroke-width="5"  />
+-->
+  <path id="curve" d="M200,300 C400,50 400,550 600,300"
+        style="fill:none; stroke:blue; stroke-width:2"  />
+        
+  <g id="points" fill="black" >
+    <circle class="point" cx="200" cy="300" r="10"/>
+    <circle class="point" cx="600" cy="300" r="10"/>
+  </g>
+  
+  <g id="controls" fill="#888888" >
+    <circle class="control" cx="400" cy="50" r="10"/>
+    <circle class="control" cx="400" cy="550" r="10"/>
+  </g>
+  
+  <path id="handle1" d="M200,300 L400,50"
+        fill="none" stroke="#888888" stroke-width="2" />        
+  <path id="handle2" d="M600,300 L400,550"
+        fill="none" stroke="#888888" stroke-width="2" />
+        
+
+<!--
+  <path id="curve" d="M100,200 C100,100 400,100 400,200"
+        fill="none" stroke="red" stroke-width="5"  />
+  <g fill="black" >
+    <circle cx="100" cy="200" r="10"/>
+    <circle cx="400" cy="200" r="10"/>
+  </g>
+  <g fill="#888888" >
+    <circle id="control1" cx="100" cy="100" r="10"/>
+    <circle id="control2" cx="400" cy="100" r="10"/>
+  </g>
+  <path id="handle1" d="M100,200 L100,100"
+        fill="none" stroke="#888888" stroke-width="2" />
+  <path d="M400,200 L400,100"
+        fill="none" stroke="#888888" stroke-width="2" />
+-->
+
+</svg>
